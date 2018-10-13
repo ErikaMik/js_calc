@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Calculator</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col block">
+				<h1 id="header">Calculator</h1>
+			</div>
+		</div>
+		<div class="row mt-2">
+			<div class="col block">
+				<!-- Inputs -->
+				<label class="text-light">Number A</label>
+				<input id="number_a" type="text" class="form-control mb-2" value="0">
+				<label class="text-light">Number B</label>
+				<input id="number_b" type="text" class="form-control mb-2" value="0">
+			</div>
+			<div class="col">
+				<!-- actions -->
+				<button id="btn_add" class="btn btn-dark btn-block">Add</button>
+				<button id="btn_subtract" class="btn btn-dark btn-block">Subtract</button>
+				<button id="btn_divide" class="btn btn-dark btn-block">Divide</button>
+				<button id="btn_multiply" class="btn btn-dark btn-block">Multiply</button>
+				<button id="btn_empty" class="btn btn-danger btn-block">Empty</button>
+			</div>
+			<div class="col block text-center" id="result">X</div>
+		</div>
+		<div class="row mt-2">
+			<div class="col block text-light" id="history">No history</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

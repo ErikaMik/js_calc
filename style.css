@@ -1,0 +1,31 @@
+body {
+	background: lightgray;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: white;
+}
+
+p {
+	color: lightgray;
+}
+
+#header {
+	padding: 30px 10px;
+}
+
+.block {
+	padding: 10px;
+	background: black;
+	border-bottom: 5px solid orange;
+}
+
+#number {
+	font-size: 60px;
+	color: orange;
+}
+
+#result {
+	font-size: 60px;
+	color: orange;
+}
